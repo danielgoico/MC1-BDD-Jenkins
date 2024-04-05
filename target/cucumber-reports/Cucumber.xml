@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="129.215" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Carga de nuevo envío individual" name="Carga de nuevo envío individual" time="128.784">
+<system-out><![CDATA[
+Given el usuario consumidor final está logueado y en la page home...........passed
+When ingresa en nuevo envío individual......................................passed
+And llena los campos de origen destino y paquete............................passed
+And presiona en agregar envío...............................................passed
+And el envío se muestra en la grilla de envíos pendientes...................passed
+And presiona en cotizar.....................................................passed
+And se muestra la grilla de checkout........................................passed
+Then realiza el pago del envío..............................................passed
+And se confirma que el pago se ha realizado con éxito.......................passed
+]]></system-out>
+</testcase>
+</testsuite>
